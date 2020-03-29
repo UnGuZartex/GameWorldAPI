@@ -1,8 +1,8 @@
-package GameWorld;
+package GameWorldAPI.GameWorld;
 
-import GameWorldType.Action;
-import GameWorldType.Predicate;
-import History.Snapshot;
+import GameWorldAPI.GameWorldType.Action;
+import GameWorldAPI.GameWorldType.Predicate;
+import GameWorldAPI.History.Snapshot;
 
 import java.awt.*;
 

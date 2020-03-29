@@ -1,4 +1,4 @@
-package History;
+package GameWorldAPI.History;
 
 public interface History {
 

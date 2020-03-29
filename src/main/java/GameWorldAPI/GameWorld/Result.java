@@ -1,4 +1,4 @@
-package GameWorld;
+package GameWorldAPI.GameWorld;
 
 public enum Result {
     SUCCES,

@@ -1,4 +1,4 @@
-package GameWorldType;
+package GameWorldAPI.GameWorldType;
 
 public interface Action {
 

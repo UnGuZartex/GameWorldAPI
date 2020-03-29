@@ -1,6 +1,6 @@
-package GameWorldType;
+package GameWorldAPI.GameWorldType;
 
-import GameWorld.GameWorld;
+import GameWorldAPI.GameWorld.GameWorld;
 
 import java.util.List;
 
