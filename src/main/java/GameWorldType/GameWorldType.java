@@ -1,3 +1,7 @@
+package GameWorldType;
+
+import GameWorld.GameWorld;
+
 import java.util.List;
 
 public interface GameWorldType {

@@ -1,3 +1,5 @@
+package GameWorldType;
+
 public interface Predicate {
 
     String getName();

@@ -1,3 +1,5 @@
+package History;
+
 public interface History {
 
     void add(Snapshot snapshot);

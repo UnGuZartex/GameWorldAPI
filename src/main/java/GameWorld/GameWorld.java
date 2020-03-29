@@ -1,3 +1,9 @@
+package GameWorld;
+
+import GameWorldType.Action;
+import GameWorldType.Predicate;
+import History.Snapshot;
+
 import java.awt.*;
 
 public interface GameWorld {

@@ -1,3 +1,5 @@
+package GameWorldType;
+
 public interface Action {
 
     String getName();
