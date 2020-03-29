@@ -6,9 +6,9 @@ public interface GameWorld {
 
     boolean evaluatePredicate(Predicate predicate);
 
-    Memento createSnapshot();
+    Snapshot createSnapshot();
 
-    void loadSnapshot(Memento memento);
+    void loadSnapshot(Snapshot snapshot);
 
     void paint(Graphics g);
 
