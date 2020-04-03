@@ -11,7 +11,7 @@ import java.awt.*;
  *
  * @author Alpha-team
  */
-public interface GameWorld {
+public interface GameWorld<T extends Snapshot> {
 
     /**
      * Execute an Action
@@ -31,13 +31,13 @@ public interface GameWorld {
      * Create a Snapshot of this current GameWorld.
      * @return a Snapshot consisting out of all important data in this GameWorld
      */
-    Snapshot createSnapshot();
+    T createSnapshot();
 
     /**
      * Reload a Snapshot back in this GameWorld
      * @param snapshot the Snapshot to load in
      */
-    void loadSnapshot(Snapshot snapshot);
+    void loadSnapshot(T snapshot);
 
     /**
      * Undo a change on the GameWorld
