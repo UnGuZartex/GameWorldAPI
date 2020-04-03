@@ -19,9 +19,4 @@ public interface Snapshot {
      * @return the creation date of thie Snapshot as LocalDateTime
      */
     LocalDateTime getSnapshotDate();
-
-    /**
-     * Restore the originator of the Snapshot to the this state
-     */
-    void restore();
 }
