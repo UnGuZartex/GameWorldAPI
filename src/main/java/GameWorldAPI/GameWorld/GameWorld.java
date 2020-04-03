@@ -40,6 +40,21 @@ public interface GameWorld {
     void loadSnapshot(Snapshot snapshot);
 
     /**
+     * Undo a change on the GameWorld
+     */
+    void undo();
+
+    /**
+     * Redo a change on the GameWorld
+     */
+    void redo();
+
+    /**
+     * Reset the GameWorld
+     */
+    void reset();
+
+    /**
      * Paint the current Gameworld
      * @param g graphics object used for painting
      */
