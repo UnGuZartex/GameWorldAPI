@@ -35,5 +35,5 @@ public interface GameWorldType {
      * Create a new instance of this GameWorldType
      * @return a GameWorld
      */
-    GameWorld createNewGameworld();
+    GameWorld createNewGameWorld();
 }
