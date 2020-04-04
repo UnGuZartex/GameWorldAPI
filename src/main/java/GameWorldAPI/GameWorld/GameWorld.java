@@ -16,7 +16,8 @@ public interface GameWorld {
     /**
      * Execute an Action
      * @param action the Action to be executed
-     * @return the result of the execution, SUCCES if succeeded, FAILURE if failed, END if wincondition has been reached
+     * @return the result of the execution, SUCCESS if succeeded, FAILURE if failed,
+     * END if the win condition has been reached
      */
     Result executeAction(Action action);
 

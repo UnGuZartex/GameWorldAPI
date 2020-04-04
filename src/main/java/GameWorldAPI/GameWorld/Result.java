@@ -6,7 +6,7 @@ package GameWorldAPI.GameWorld;
  * @author Alpha-team
  */
 public enum Result {
-    SUCCES,
+    SUCCESS,
     FAILURE,
     END
 }

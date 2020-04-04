@@ -1,7 +1,7 @@
 package GameWorldAPI.GameWorldType;
 
 /**
- * Interface defining the general functionality of a Action
+ * Interface defining the general functionality of an Action
  *
  * @author Alpha-team
  */
