@@ -16,11 +16,6 @@ public class ImageLibrary {
     private final HashMap<String, Image> images;
 
     /**
-     * Variable referring to the default image name
-     */
-    private static final String notFoundFileName = "notFound";
-
-    /**
      * Initialise a new library with given images.
      *
      * @param images The images for this library.
@@ -40,15 +35,6 @@ public class ImageLibrary {
     }
 
     /**
-     * Get the default 'not found' image.
-     *
-     * @return The default image.
-     */
-    public static String getNotFoundFileName() {
-        return notFoundFileName;
-    }
-
-    /**
      * Get the image with the given name.
      *
      * @param imageName The name of the image to get.
@@ -59,7 +45,7 @@ public class ImageLibrary {
     public Image getImage(String imageName) {
 
         if (images.get(imageName) == null) {
-            imageName = notFoundFileName;
+            imageName = "notFound";
         }
 
         return images.get(imageName);
