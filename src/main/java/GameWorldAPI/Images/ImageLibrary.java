@@ -3,6 +3,11 @@ package GameWorldAPI.Images;
 import java.awt.*;
 import java.util.HashMap;
 
+/**
+ * A class for holding and using images.
+ *
+ * @author Alpha-team
+ */
 public class ImageLibrary {
 
     /**
