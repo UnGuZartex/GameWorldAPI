@@ -7,58 +7,49 @@ import GameWorldAPI.History.Snapshot;
 import java.awt.*;
 
 /**
- * Interface defining the general functionality of a GameWorld
+ * Interface defining the general functionality of a GameWorld.
  *
  * @author Alpha-team
  */
 public interface GameWorld {
 
     /**
-     * Execute an Action
-     * @param action the Action to be executed
-     * @return the result of the execution, SUCCESS if succeeded, FAILURE if failed,
-     * END if the win condition has been reached
+     * Execute an Action.
+     *
+     * @param action The Action to be executed
+     *
+     * @return The result of the execution: SUCCESS if succeeded, FAILURE if failed,
+     *         END if the win condition has been reached.
      */
     Result executeAction(Action action);
 
     /**
-     * Evaluate a Predicate
-     * @param predicate the Predicate to evaluate
-     * @return true if the Predicate is true, false otherwise
+     * Evaluate a Predicate.
+     *
+     * @param predicate the Predicate to evaluate.
+     *
+     * @return The evaluation of the predicate.
      */
     boolean evaluatePredicate(Predicate predicate);
 
     /**
      * Create a Snapshot of this current GameWorld.
-     * @return a Snapshot consisting out of all important data in this GameWorld
+     *
+     * @return A Snapshot consisting out of all important data in this GameWorld.
      */
     Snapshot createSnapshot();
 
     /**
-     * Reload a Snapshot back in this GameWorld
-     * @param snapshot the Snapshot to load in
+     * Reload a Snapshot back in this GameWorld.
+     *
+     * @param snapshot The Snapshot to load in.
      */
     void loadSnapshot(Snapshot snapshot);
 
     /**
-     * Undo a change on the GameWorld
-     */
-    void undo();
-
-    /**
-     * Redo a change on the GameWorld
-     */
-    void redo();
-
-    /**
-     * Reset the GameWorld
-     */
-    void reset();
-
-    /**
-     * Paint the current Gameworld
-     * @param g graphics object used for painting
+     * Paint the current GameWorld.
+     *
+     * @param g Graphics object used for painting.
      */
     void paint(Graphics g);
-
 }
