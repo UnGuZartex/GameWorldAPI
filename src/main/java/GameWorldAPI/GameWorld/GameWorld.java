@@ -3,6 +3,7 @@ package GameWorldAPI.GameWorld;
 import GameWorldAPI.GameWorldType.Action;
 import GameWorldAPI.GameWorldType.Predicate;
 import GameWorldAPI.History.Snapshot;
+import GameWorldAPI.PaintTools.ImageLibrary;
 
 import java.awt.*;
 
@@ -50,6 +51,7 @@ public interface GameWorld {
      * Paint the current GameWorld.
      *
      * @param g Graphics object used for painting.
+     * @param library Library object used for images
      */
-    void paint(Graphics g);
+    void paint(Graphics g, ImageLibrary library);
 }
