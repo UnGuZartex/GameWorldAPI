@@ -1,4 +1,4 @@
-package GameWorldAPI.History;
+package GameWorldAPI.Utility;
 
 import java.time.LocalDateTime;
 

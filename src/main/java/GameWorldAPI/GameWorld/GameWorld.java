@@ -2,7 +2,7 @@ package GameWorldAPI.GameWorld;
 
 import GameWorldAPI.GameWorldType.Action;
 import GameWorldAPI.GameWorldType.Predicate;
-import GameWorldAPI.History.Snapshot;
+import GameWorldAPI.Utility.Snapshot;
 import Images.ImageLibrary;
 
 import java.awt.*;
